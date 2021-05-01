@@ -10,6 +10,6 @@
         <page name='整数反转-简单7'/>
         <page name='回文数-简单9'/>
         <page name='罗马数字转整数-简单13'/>
-        <page name='循环方法测试'/>
+        <page name='最长公共前缀-简单14'/>
     </pages>
 </playground>
