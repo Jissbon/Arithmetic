@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='冒泡排序'/>
+        <page name='插入排序'/>
+        <page name='快速排序'/>
+        <page name='希尔排序'/>
+        <page name='选择排序'/>
+        <page name='两数之和-简单1'/>
+        <page name='整数反转-简单7'/>
+        <page name='回文数-简单9'/>
+        <page name='罗马数字转整数-简单13'/>
+        <page name='循环方法测试'/>
+    </pages>
+</playground>
