@@ -16,6 +16,7 @@
 		D8CC361F263D302100CF46F3 /* LeeCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC361E263D302100CF46F3 /* LeeCodeTests.swift */; };
 		D8CC362A263D302100CF46F3 /* LeeCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC3629263D302100CF46F3 /* LeeCodeUITests.swift */; };
 		D8CC3639263D304300CF46F3 /* LongPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC3638263D304300CF46F3 /* LongPrefix.swift */; };
+		D8CC363C263D47B200CF46F3 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC363B263D47B200CF46F3 /* ThreeSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D8CC3629263D302100CF46F3 /* LeeCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCodeUITests.swift; sourceTree = "<group>"; };
 		D8CC362B263D302100CF46F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8CC3638263D304300CF46F3 /* LongPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPrefix.swift; sourceTree = "<group>"; };
+		D8CC363B263D47B200CF46F3 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D8CC3607263D301F00CF46F3 /* AppDelegate.swift */,
 				D8CC3609263D301F00CF46F3 /* SceneDelegate.swift */,
 				D8CC360B263D301F00CF46F3 /* ViewController.swift */,
+				D8CC363A263D479300CF46F3 /* 三数之和 */,
 				D8CC3637263D302F00CF46F3 /* 最长前缀 */,
 				D8CC360D263D301F00CF46F3 /* Main.storyboard */,
 				D8CC3610263D302100CF46F3 /* Assets.xcassets */,
@@ -137,6 +140,14 @@
 				D8CC3638263D304300CF46F3 /* LongPrefix.swift */,
 			);
 			path = "最长前缀";
+			sourceTree = "<group>";
+		};
+		D8CC363A263D479300CF46F3 /* 三数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC363B263D47B200CF46F3 /* ThreeSum.swift */,
+			);
+			path = "三数之和";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			files = (
 				D8CC360C263D301F00CF46F3 /* ViewController.swift in Sources */,
 				D8CC3639263D304300CF46F3 /* LongPrefix.swift in Sources */,
+				D8CC363C263D47B200CF46F3 /* ThreeSum.swift in Sources */,
 				D8CC3608263D301F00CF46F3 /* AppDelegate.swift in Sources */,
 				D8CC360A263D301F00CF46F3 /* SceneDelegate.swift in Sources */,
 			);
@@ -451,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CB483RWNCM;
 				INFOPLIST_FILE = LeeCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CB483RWNCM;
 				INFOPLIST_FILE = LeeCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
