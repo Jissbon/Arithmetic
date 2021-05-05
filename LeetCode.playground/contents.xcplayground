@@ -15,5 +15,7 @@
         <page name='有效的括号-简单20'/>
         <page name='合并两个有序链表-简单21'/>
         <page name='删除有序数组的重复项-简单26'/>
+        <page name='移除元素-简单27'/>
+        <page name='实现 strStr()-28'/>
     </pages>
 </playground>

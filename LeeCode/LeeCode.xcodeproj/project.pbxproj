@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D86F782B26427C3600241694 /* StrMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F782A26427C3600241694 /* StrMethod.swift */; };
 		D88D18C1263E8EF8009DBD80 /* ValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D18C0263E8EF8009DBD80 /* ValidBrackets.swift */; };
 		D8CC3608263D301F00CF46F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC3607263D301F00CF46F3 /* AppDelegate.swift */; };
 		D8CC360A263D301F00CF46F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC3609263D301F00CF46F3 /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D86F782A26427C3600241694 /* StrMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrMethod.swift; sourceTree = "<group>"; };
 		D88D18C0263E8EF8009DBD80 /* ValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBrackets.swift; sourceTree = "<group>"; };
 		D8CC3604263D301F00CF46F3 /* LeeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC3607263D301F00CF46F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D86F782926427C1D00241694 /* 实现strStr() */ = {
+			isa = PBXGroup;
+			children = (
+				D86F782A26427C3600241694 /* StrMethod.swift */,
+			);
+			path = "实现strStr()";
+			sourceTree = "<group>";
+		};
 		D88D18BF263E8EE2009DBD80 /* 有效的括号 */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 				D8CC3607263D301F00CF46F3 /* AppDelegate.swift */,
 				D8CC3609263D301F00CF46F3 /* SceneDelegate.swift */,
 				D8CC360B263D301F00CF46F3 /* ViewController.swift */,
+				D86F782926427C1D00241694 /* 实现strStr() */,
 				D88D18BF263E8EE2009DBD80 /* 有效的括号 */,
 				D8CC363A263D479300CF46F3 /* 三数之和 */,
 				D8CC3637263D302F00CF46F3 /* 最长前缀 */,
@@ -295,6 +306,7 @@
 				D88D18C1263E8EF8009DBD80 /* ValidBrackets.swift in Sources */,
 				D8CC3639263D304300CF46F3 /* LongPrefix.swift in Sources */,
 				D8CC363C263D47B200CF46F3 /* ThreeSum.swift in Sources */,
+				D86F782B26427C3600241694 /* StrMethod.swift in Sources */,
 				D8CC3608263D301F00CF46F3 /* AppDelegate.swift in Sources */,
 				D8CC360A263D301F00CF46F3 /* SceneDelegate.swift in Sources */,
 			);
