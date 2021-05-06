@@ -12,9 +12,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var nums = [0,1,12,3,12]
-        MoveZero.moveZeroes(&nums)
-        print(nums)
+        let nums = [1,3,5,6]
+        
+        let result = SearchInser.searchInsert(nums, 2)
+        
+        print(result)
     }
 }
 
