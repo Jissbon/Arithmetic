@@ -6,19 +6,20 @@
         <page name='快速排序'/>
         <page name='希尔排序'/>
         <page name='选择排序'/>
-        <page name='两数之和-简单1'/>
-        <page name='整数反转-简单7'/>
-        <page name='回文数-简单9'/>
-        <page name='罗马数字转整数-简单13'/>
-        <page name='最长公共前缀-简单14'/>
-        <page name=' 三数之和-中等15'/>
-        <page name='有效的括号-简单20'/>
-        <page name='合并两个有序链表-简单21'/>
-        <page name='删除有序数组的重复项-简单26'/>
-        <page name='移除元素-简单27'/>
-        <page name='实现 strStr()-28'/>
-        <page name='移动零-283'/>
-        <page name='搜索插入位置-35'/>
-        <page name='解码异或后的数组-1720'/>
+        <page name='1-两数之和(简单)'/>
+        <page name='7-整数反转(简单)'/>
+        <page name='9-回文数(简单)'/>
+        <page name='13-罗马数字转整数(简单)'/>
+        <page name='14-最长公共前缀(简单)'/>
+        <page name='15- 三数之和(中等)'/>
+        <page name='20-有效的括号(简单)'/>
+        <page name='21-合并两个有序链表(简单)'/>
+        <page name='26-删除有序数组的重复项(简单)'/>
+        <page name='27-移除元素(简单)'/>
+        <page name='28-实现 strStr()(简单)'/>
+        <page name='283-移动零(简单)'/>
+        <page name='35-搜索插入位置(简单)'/>
+        <page name='1720-解码异或后的数组(简单)'/>
+        <page name='2-两数相加-链表(中等)'/>
     </pages>
 </playground>
