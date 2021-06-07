@@ -21,5 +21,6 @@
         <page name='35-搜索插入位置(简单)'/>
         <page name='1720-解码异或后的数组(简单)'/>
         <page name='2-两数相加-链表(中等)'/>
+        <page name='11. 盛最多水的容器(中等)'/>
     </pages>
 </playground>
