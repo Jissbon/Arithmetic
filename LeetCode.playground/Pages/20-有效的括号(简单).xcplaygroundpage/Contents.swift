@@ -56,7 +56,7 @@ import Foundation
 
 
 //方案2
- func isValid(_ s: String) -> Bool {
+ func isValid1(_ s: String) -> Bool {
     //声明一个栈
     var stack = [Character]();
     //遍历字符

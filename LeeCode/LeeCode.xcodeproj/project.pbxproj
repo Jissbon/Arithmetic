@@ -12,6 +12,7 @@
 		D86F783126437CAA00241694 /* SearchInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F783026437CAA00241694 /* SearchInsert.swift */; };
 		D86F78342643C9B800241694 /* XorAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F78332643C9B800241694 /* XorAlgorithm.swift */; };
 		D88D18C1263E8EF8009DBD80 /* ValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D18C0263E8EF8009DBD80 /* ValidBrackets.swift */; };
+		D8B3C1F3266F7B9A008B23E5 /* LargestRectangleArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3C1F2266F7B9A008B23E5 /* LargestRectangleArea.swift */; };
 		D8CC3608263D301F00CF46F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC3607263D301F00CF46F3 /* AppDelegate.swift */; };
 		D8CC360A263D301F00CF46F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC3609263D301F00CF46F3 /* SceneDelegate.swift */; };
 		D8CC360C263D301F00CF46F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC360B263D301F00CF46F3 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		D86F783026437CAA00241694 /* SearchInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsert.swift; sourceTree = "<group>"; };
 		D86F78332643C9B800241694 /* XorAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XorAlgorithm.swift; sourceTree = "<group>"; };
 		D88D18C0263E8EF8009DBD80 /* ValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBrackets.swift; sourceTree = "<group>"; };
+		D8B3C1F2266F7B9A008B23E5 /* LargestRectangleArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangleArea.swift; sourceTree = "<group>"; };
 		D8CC3604263D301F00CF46F3 /* LeeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC3607263D301F00CF46F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8CC3609263D301F00CF46F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 			path = "有效的括号";
 			sourceTree = "<group>";
 		};
+		D8B3C1F1266F7B59008B23E5 /* 柱状图中最大的矩形 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B3C1F2266F7B9A008B23E5 /* LargestRectangleArea.swift */,
+			);
+			path = "柱状图中最大的矩形";
+			sourceTree = "<group>";
+		};
 		D8CC35FB263D301F00CF46F3 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 				D8CC3607263D301F00CF46F3 /* AppDelegate.swift */,
 				D8CC3609263D301F00CF46F3 /* SceneDelegate.swift */,
 				D8CC360B263D301F00CF46F3 /* ViewController.swift */,
+				D8B3C1F1266F7B59008B23E5 /* 柱状图中最大的矩形 */,
 				D86F78322643C4B500241694 /* 异或解码 */,
 				D86F782F26437C8C00241694 /* 搜索插入位置 */,
 				D86F782C2642B2BA00241694 /* 移动零 */,
@@ -338,6 +349,7 @@
 				D86F782E2642B2CA00241694 /* ZeroMove.swift in Sources */,
 				D8CC360C263D301F00CF46F3 /* ViewController.swift in Sources */,
 				D88D18C1263E8EF8009DBD80 /* ValidBrackets.swift in Sources */,
+				D8B3C1F3266F7B9A008B23E5 /* LargestRectangleArea.swift in Sources */,
 				D86F783126437CAA00241694 /* SearchInsert.swift in Sources */,
 				D8CC3639263D304300CF46F3 /* LongPrefix.swift in Sources */,
 				D8CC363C263D47B200CF46F3 /* ThreeSum.swift in Sources */,

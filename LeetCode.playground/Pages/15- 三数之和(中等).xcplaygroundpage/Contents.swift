@@ -65,17 +65,17 @@ func threeSum(_ nums: [Int]) -> [[Int]] {
         while L < R {
             if sortedNums[i] + sortedNums[L] + sortedNums[R] == 0 {
                 result.append([sortedNums[i],sortedNums[L],sortedNums[R]])
-//                print("i:\(i),L\(L),R:\(R)")
-//                print("\([sortedNums[i],sortedNums[L],sortedNums[R]])")
                 
-                //[i:2,L14,R:39,[-66, 10, 56]
+                // 左边指针向右移动,避开重复数字
                 while L < R  &&  sortedNums[L] == sortedNums[L+1]{
                     L=L+1
                 }
-                
+                // 右边指针向左移动,避开重复数字
                 while L < R && sortedNums[R] == sortedNums[R-1] {
                     R-=1
                 }
+                
+                //上面两
                 L += 1
                 
             }else if sortedNums[i] + sortedNums[L] + sortedNums[R] > 0 {

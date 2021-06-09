@@ -22,5 +22,8 @@
         <page name='1720-解码异或后的数组(简单)'/>
         <page name='2-两数相加-链表(中等)'/>
         <page name='11. 盛最多水的容器(中等)'/>
+        <page name='70. 爬楼梯'/>
+        <page name='141. 环形链表'/>
+        <page name='84. 柱状图中最大的矩形'/>
     </pages>
 </playground>

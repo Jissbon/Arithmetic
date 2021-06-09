@@ -12,12 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let nums = [1,3,5,6]
+        let heights = [2,1,5,6,2,3]
+        //let heights = [2,4]
         
-        let result = SearchInser.searchInsert(nums, 2)
+        let res =  LargestRectangleArea.largestRectangleArea(heights)
+        print(res)
         
-        print(result)
     }
 }
+
+
 
 
